@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, escape
 import requests
 import json
+import markupsafe
 
 app = Flask(__name__)
 
